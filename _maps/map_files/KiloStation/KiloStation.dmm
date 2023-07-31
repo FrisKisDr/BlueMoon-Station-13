@@ -8865,7 +8865,7 @@
 	},
 /area/maintenance/fore)
 "apS" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57";
 	dir = 8
 	},
@@ -14712,6 +14712,7 @@
 "azB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -20191,6 +20192,7 @@
 "aJn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
@@ -24493,7 +24495,7 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/medical/medbay/central)
 "aQp" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57"
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -25078,7 +25080,7 @@
 /turf/open/floor/plasteel/dark,
 /area/service/theater)
 "aRp" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57";
 	dir = 4
 	},
@@ -26765,7 +26767,7 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/checkpoint/medical)
 "aTJ" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57"
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -27839,7 +27841,7 @@
 /turf/open/floor/engine,
 /area/ai_monitored/turret_protected/ai_upload)
 "aVd" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57"
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -29590,7 +29592,7 @@
 	dir = 4;
 	name = "diner camera"
 	},
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57";
 	dir = 1
 	},
@@ -37793,6 +37795,7 @@
 "bkY" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
@@ -38207,6 +38210,7 @@
 "blO" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
@@ -39108,6 +39112,7 @@
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
@@ -39748,6 +39753,7 @@
 	},
 /obj/item/clothing/under/rank/cargo/tech,
 /obj/item/clothing/shoes/sneakers/brown,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -41583,7 +41589,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "brj" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57"
 	},
 /obj/effect/turf_decal/tile/neutral,
@@ -41649,7 +41655,7 @@
 /turf/open/floor/plating,
 /area/service/chapel/office)
 "brq" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57"
 	},
 /obj/effect/turf_decal/tile/neutral{
@@ -41822,7 +41828,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57";
 	dir = 1
 	},
@@ -41865,7 +41871,7 @@
 	dir = 1;
 	pixel_y = -26
 	},
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	color = "#c45c57";
 	dir = 1
 	},
@@ -41889,7 +41895,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57";
 	dir = 1
 	},
@@ -61129,6 +61135,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/rack,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -78374,7 +78381,7 @@
 /turf/closed/wall/r_wall,
 /area/engineering/atmos)
 "cDW" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	color = "#c45c57"
 	},
 /turf/open/floor/wood{
@@ -80931,6 +80938,7 @@
 "cLe" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -81048,6 +81056,7 @@
 /area/maintenance/department/electrical)
 "cLG" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -83625,7 +83634,7 @@
 /turf/open/floor/grass/grass0,
 /area/medical/genetics)
 "kdk" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted,
@@ -83873,6 +83882,7 @@
 /area/security/warden)
 "lKo" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -85440,7 +85450,7 @@
 /turf/open/floor/wood,
 /area/commons/vacant_room/office)
 "uud" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 1
 	},
 /obj/structure/window/reinforced/tinted,

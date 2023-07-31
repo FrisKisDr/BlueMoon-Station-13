@@ -323,9 +323,9 @@
 	amount = 50
 
 /datum/supply_pack/misc/random10k
-	name = "10k Surplus Crate"
-	desc = "Hello, thank you for taking this random surplus off our hands. We have no idea whats in it just know its worth about 10000 Credits. At least we think so."
-	cost = 10000
+	name = "50k Surplus Crate"
+	desc = "Hello, thank you for taking this random surplus off our hands. We have no idea whats in it just know its worth about 50000 Credits. At least we think so."
+	cost = 50000
 	contains = list(/obj/item/stack/sheet/bluespace_crystal,
 					/obj/item/stock_parts/capacitor/adv,
 					/obj/item/stock_parts/scanning_module/adv,
@@ -354,8 +354,36 @@
 					/obj/effect/spawner/lootdrop/prison_loot_toilet,
 					/obj/effect/spawner/lootdrop/prison_loot_toilet,
 					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/prison_loot_toilet,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
+					/obj/effect/spawner/lootdrop/syndicate_present,
 					/obj/effect/spawner/lootdrop/high_loot_toilet,
 					/obj/effect/spawner/lootdrop/high_loot_toilet,
+					/obj/effect/spawner/lootdrop/high_loot_toilet,
+					/obj/effect/spawner/lootdrop/high_loot_toilet,
+					/obj/effect/spawner/lootdrop/high_tools,
+					/obj/effect/spawner/lootdrop/high_tools,
 					/obj/effect/spawner/lootdrop/high_tools,
 					/obj/effect/spawner/lootdrop/high_tools,
 					/obj/item/gunpart/pistol9frame,
@@ -368,6 +396,13 @@
 					/obj/item/ammo_box/c45/hydra,
 					/obj/item/ammo_box/c308,
 					/obj/effect/spawner/lootdrop/tool_box,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
+					/obj/effect/spawner/lootdrop/prison_contraband,
 					/obj/effect/spawner/lootdrop/prison_contraband,
 					/obj/effect/spawner/lootdrop/cig_packs,
 					/obj/effect/spawner/lootdrop/brokenhuds,

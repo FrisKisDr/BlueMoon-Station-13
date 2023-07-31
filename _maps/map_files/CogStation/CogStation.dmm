@@ -119,6 +119,7 @@
 	name = "Port Bow Maintenance APC";
 	pixel_x = -25
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "aaw" = (
@@ -3160,6 +3161,7 @@
 /obj/item/storage/toolbox/mechanical,
 /obj/item/crowbar,
 /obj/item/extinguisher,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "ajI" = (
@@ -3273,6 +3275,7 @@
 	name = "Brig APC";
 	pixel_x = 24
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "ajV" = (
@@ -4005,6 +4008,7 @@
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/item/t_scanner,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/construction/secondary)
 "alZ" = (
@@ -4903,6 +4907,7 @@
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/ears/earmuffs,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
@@ -5229,7 +5234,7 @@
 	},
 /area/service/chapel/main)
 "apa" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /turf/open/floor/plasteel{
 	dir = 8;
 	icon_state = "chapel"
@@ -5293,7 +5298,7 @@
 /turf/open/floor/wood,
 /area/commons/fitness)
 "apl" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/clothing/head/beret/black,
 /turf/open/floor/wood,
 /area/commons/fitness)
@@ -5340,7 +5345,7 @@
 /turf/closed/wall,
 /area/hallway/secondary/entry)
 "apw" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/landmark/start/assistant,
 /obj/machinery/firealarm{
 	pixel_y = 26
@@ -5406,7 +5411,7 @@
 /turf/closed/wall/r_wall,
 /area/security/office)
 "apL" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5558,7 +5563,7 @@
 /turf/open/floor/plasteel/white,
 /area/commons/fitness/cogpool)
 "aqd" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/machinery/camera{
 	c_tag = "Chapel - Fore"
 	},
@@ -5586,7 +5591,7 @@
 /turf/open/floor/wood,
 /area/commons/fitness)
 "aqh" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /turf/open/floor/wood,
 /area/commons/fitness)
 "aqi" = (
@@ -5955,7 +5960,7 @@
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "arm" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood,
 /area/commons/fitness)
@@ -7294,7 +7299,7 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "auW" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -10723,7 +10728,7 @@
 /turf/open/floor/plasteel,
 /area/commons/fitness)
 "aCP" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
@@ -11816,7 +11821,7 @@
 /turf/open/floor/plating,
 /area/security/checkpoint)
 "aFl" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
@@ -14444,7 +14449,7 @@
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/office)
 "aKY" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -20362,7 +20367,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/lab)
 "bav" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/machinery/firealarm{
 	pixel_y = 26
 	},
@@ -20539,7 +20544,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "baR" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/carpet{
 	icon_state = "carpetsymbol"
@@ -22917,7 +22922,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/warehouse)
 "bhq" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/instrument/recorder,
 /turf/open/floor/plasteel/dark,
 /area/commons/lounge/jazz)
@@ -22953,7 +22958,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/warehouse)
 "bhv" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/machinery/firealarm{
 	pixel_y = 26
 	},
@@ -23114,7 +23119,7 @@
 /turf/open/floor/plasteel,
 /area/security/office)
 "bhO" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
@@ -23260,7 +23265,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "bid" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /mob/living/simple_animal/pet/cat/Proc,
 /turf/open/floor/plasteel/dark,
 /area/commons/lounge/jazz)
@@ -26430,6 +26435,7 @@
 /obj/item/tank/internals/air,
 /obj/item/extinguisher,
 /obj/item/crowbar,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bpn" = (
@@ -28433,6 +28439,7 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/effect/spawner/lootdrop/maintenance,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bun" = (
@@ -32305,6 +32312,7 @@
 	c_tag = "Starboard Bow Maintenance - Port";
 	pixel_x = 22
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "bED" = (
@@ -32553,6 +32561,7 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 6
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plasteel,
 /area/maintenance/department/chapel)
 "bFe" = (
@@ -33169,6 +33178,7 @@
 	},
 /obj/item/clothing/mask/gas,
 /obj/item/tank/internals/air,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "bGp" = (
@@ -36195,6 +36205,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/oil,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plasteel,
 /area/maintenance/port/fore)
 "bNO" = (
@@ -37879,7 +37890,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/miningoffice)
 "bRH" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/radio/intercom{
 	name = "Station Intercom (Common)";
 	pixel_y = 29
@@ -37890,7 +37901,7 @@
 /turf/closed/wall/r_wall,
 /area/medical/medbay/central)
 "bRJ" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/landmark/start/assistant,
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -40853,7 +40864,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bYu" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
@@ -40873,7 +40884,7 @@
 /turf/closed/wall,
 /area/science/robotics/mechbay)
 "bYw" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
@@ -41339,6 +41350,7 @@
 	c_tag = "Fire Suppression Storage";
 	pixel_x = 22
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "bZw" = (
@@ -50830,7 +50842,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "cvK" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -52802,6 +52814,7 @@
 /obj/machinery/atmospherics/pipe/manifold/cyan/hidden{
 	dir = 4
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/department/chapel)
 "czO" = (
@@ -52935,7 +52948,7 @@
 	dir = 1;
 	light_color = "#ffc1c1"
 	},
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/item/reagent_containers/food/drinks/bottle/vermouth/empty,
 /obj/item/reagent_containers/food/snacks/grown/cannabis{
 	pixel_x = -4;
@@ -52951,7 +52964,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 26
 	},
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/item/storage/box/hug/medical,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass{
@@ -57333,6 +57346,7 @@
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 10
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "cIg" = (
@@ -61543,6 +61557,7 @@
 "dzz" = (
 /obj/item/armyknife,
 /obj/item/toy/plush/catgirl,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "dAn" = (
@@ -61568,6 +61583,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/item/storage/backpack/duffelbag/med/surgery,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "dFL" = (
@@ -62432,6 +62448,7 @@
 /obj/structure/rack,
 /obj/item/stack/cable_coil/random,
 /obj/item/flashlight/seclite,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "foR" = (
@@ -62681,7 +62698,7 @@
 /turf/open/floor/plating,
 /area/commons/fitness/cogpool)
 "fUq" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/chair/sofa/left/brown,
 /obj/effect/landmark/start/prisoner,
 /turf/open/floor/plasteel,
 /area/security/prison/rec)
@@ -63317,6 +63334,7 @@
 	lootcount = 8;
 	name = "8maintenance loot spawner"
 	},
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/solars/port)
 "htr" = (
@@ -63692,6 +63710,7 @@
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high/empty,
 /obj/item/stock_parts/cell/high/empty,
+/obj/effect/spawner/lootdrop/syndicate_present,
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "ibb" = (
@@ -67173,7 +67192,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison/cells)
 "qaH" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -68051,7 +68070,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison/rec)
 "rSi" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -68700,7 +68719,7 @@
 /turf/open/floor/plating,
 /area/security/prison/work)
 "tlw" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/chair/sofa/right/brown,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -69285,7 +69304,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison/upper)
 "uxF" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/chair/sofa/right/brown{
 	dir = 8
 	},
 /turf/open/floor/carpet,
@@ -69930,7 +69949,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "vMu" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -70057,7 +70076,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison/upper)
 "wbi" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/chair/sofa/left/brown{
 	dir = 8
 	},
 /turf/open/floor/carpet,
