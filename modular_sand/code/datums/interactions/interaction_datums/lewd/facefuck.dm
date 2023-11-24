@@ -82,9 +82,9 @@
 			if("penis")
 				if(user.has_penis() || user.has_strapon())
 					if(user.is_fucking(partner, CUM_TARGET_THROAT))
-						message = "вытягивает свой орган из горла \the <b>[partner]</b> и сладко усмехается."
+						message = "вытягивает свой орган из горла \the <b>[partner]</b>."
 					else
-						message = "засовывает свои гениталии в рот \the <b>[partner]</b>"
+						message = "засовывает свои гениталии в рот \the <b>[partner]</b>."
 				else
 					improv = TRUE
 		if(improv)
@@ -111,6 +111,7 @@
 	require_user_penis = REQUIRE_EXPOSED
 	require_target_mouth = TRUE
 	max_distance = 1
+	extreme = TRUE //Stop killing people without their fucking consent! - Gardelin0
 
 /datum/interaction/lewd/throatfuck/display_interaction(mob/living/user, mob/living/partner)
 	var/message
@@ -124,8 +125,8 @@
 			"молотит рот <b>[partner]</b> с чавкающим звуком и раз за разом приземляется своими яйцами аккурат в лицо.")]"
 		if(rand(3))
 			partner.emote("кашляет на [user]")
-			if(prob(1) && istype(partner)) //Handled on modular_splurt
-				partner.adjustOxyLoss(rand(3,6))
+			if(prob(1) && istype(partner))
+				partner.adjustOxyLoss(rand(2,3))
 		if(partner.a_intent == INTENT_HARM)
 			partner.adjustBruteLoss(rand(3,6))
 			retaliation_message = pick(

@@ -40,6 +40,10 @@
 	name = "Performers one piece"
 	path = /obj/item/clothing/under/performer
 
+/datum/gear/uniform/blutigen_undergarment
+	name = "Blutigen Undergarments"
+	path = /obj/item/clothing/under/blutigen_undergarment
+
 // Suggestion #151
 /datum/gear/uniform/waiter
 	name = "waiter's outfit"
@@ -242,3 +246,10 @@
 /datum/gear/uniform/suit/bm/skirt
 	name = "Black Skirt with Ryodan Spider"
 	path = /obj/item/clothing/under/bm/ryodan
+
+/datum/gear/uniform/suit/clussy_outfit
+	name = "Clussy outfit"
+	path = /obj/item/clothing/under/rank/civilian/clown/clussy_outfit
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_JOBS
+	restricted_roles = list("Clown")
+	restricted_desc = "Clown"

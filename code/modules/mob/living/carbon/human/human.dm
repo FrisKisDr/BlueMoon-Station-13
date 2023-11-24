@@ -44,7 +44,7 @@
 	. = ..()
 	if(!CONFIG_GET(flag/disable_human_mood))
 		AddComponent(/datum/component/mood)
-	AddComponent(/datum/component/combat_mode)
+/*	AddComponent(/datum/component/combat_mode) / BLUEMOON REMOVAL - боевые индикаторы присваиваются всем мобам в другом файле */
 	AddElement(/datum/element/flavor_text/carbon/temporary, "", "Set Pose (Temporary Flavor Text)", "This should be used only for things pertaining to the current round!", _save_key = null)
 	AddElement(/datum/element/strippable, GLOB.strippable_human_items, /mob/living/carbon/human/.proc/should_strip)
 
@@ -101,8 +101,8 @@
 	spreadFire(AM)
 
 /mob/living/carbon/human/Topic(href, href_list)
-	if(usr.canUseTopic(src, BE_CLOSE, NO_DEXTERY))
-		if(href_list["embedded_object"])
+	if(href_list["embedded_object"])
+		if(usr.canUseTopic(src, BE_CLOSE, NO_DEXTERY))
 			var/obj/item/bodypart/L = locate(href_list["embedded_limb"]) in bodyparts
 			if(!L)
 				return
@@ -211,8 +211,13 @@
 						var/allowed_access = null
 						var/obj/item/clothing/glasses/G = H.glasses
 						if (!(G.obj_flags & EMAGGED))
+							var/list/access = list()
 							if(H.wear_id)
-								var/list/access = H.wear_id.GetAccess()
+								access += H.wear_id.GetAccess()
+								if(ACCESS_SEC_DOORS in access)
+									allowed_access = H.get_authentification_name()
+							if(H.wear_neck)
+								access += H.wear_neck.GetAccess()
 								if(ACCESS_SEC_DOORS in access)
 									allowed_access = H.get_authentification_name()
 						else
